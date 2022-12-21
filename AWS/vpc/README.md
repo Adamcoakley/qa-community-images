@@ -1,5 +1,5 @@
 # Virtual Private Cloud
-In this tutorial, I will be creating an a virtual private cloud (VPC) bucket using the command line interface (CLI).
+In this tutorial, I will be creating an a virtual private cloud (VPC) using the command line interface (CLI).
 
 ## Create VPC
 The following command was used create a VPC: 

@@ -53,7 +53,7 @@ The following image was the output of the above command: <br>
 
 ![view-rds-instance](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/rds/view-instances.png?raw=true)
 
-## View RDS Instances
+## Delete RDS Instance
 The following command was used to delete the RDS instance:
 ```
 aws rds delete-db-instance --db-instance-identifier db-cli --skip-final-snapshot

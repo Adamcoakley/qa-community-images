@@ -52,7 +52,7 @@ The following image was the output of the above command: <br>
 ![detach-internet-gateway](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/vpc-internet-gateway/detach-igw.png?raw=true)
 
 ## Delete Internet Gateway
-The following command was used to view the internet gateway:
+The following command was used to delete the internet gateway:
 ```
 aws ec2 delete-internet-gateway --internet-gateway-id igw-0b10ac0b92bda7a77
 ```

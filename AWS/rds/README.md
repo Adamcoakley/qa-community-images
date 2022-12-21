@@ -27,7 +27,11 @@ aws rds create-db-instance --db-name myDB --db-instance-identifier db-cli --allo
 
 The following image was the output of the above command: <br>
 
-![create-rds-instance](url?raw=true)
+![create-rds-instance](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/rds/rds-instance.png?raw=true)
+
+The new RDS instance is also visible on the AWS console: <br>
+
+![rds-instance-console](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/rds/rds-console.png?raw=true)
 
 ## Install MySQL Client
 Before installing the mysql client, I created an EC2 instance and ssh'd into the new instance. The following command was then used to install the mysql client:
@@ -37,7 +41,7 @@ sudo apt update -y && sudo apt install mysql-client-core-5.7 -y
 
 The following image was the output of the above command: <br>
 
-![install-mysql-client](url?raw=true)
+![install-mysql-client](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/rds/install-mysql-client.png?raw=true)
 
 ## View RDS Instances
 The following command was used to view the RDS instance:
@@ -47,7 +51,7 @@ aws rds describe-db-instances
 
 The following image was the output of the above command: <br>
 
-![view-rds-instance](url?raw=true)
+![view-rds-instance](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/rds/view-instances.png?raw=true)
 
 ## View RDS Instances
 The following command was used to delete the RDS instance:
@@ -57,4 +61,4 @@ aws rds delete-db-instance --db-instance-identifier db-cli --skip-final-snapshot
 
 The following image was the output of the above command: <br>
 
-![delete-rds-instance](url?raw=true)
+![delete-rds-instance](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/rds/delete-instance.png?raw=true)

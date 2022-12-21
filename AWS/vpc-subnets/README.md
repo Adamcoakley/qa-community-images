@@ -12,14 +12,24 @@ aws ec2 create-subnet --vpc-id vpc-088c2bca6ab1053cc --cidr-block 10.0.1.0/24
 
 The following image was the output of the above command: <br>
 
-![create-subnet](url?raw=true)
+![create-subnet](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/vpc-subnets/create-subnet.png?raw=true)
 
 ## View Existing Subnets
-The following command was used to view all existing subnets
+The following command was used to view all existing subnets:
 ```
 aws ec2 describe-subnets
 ```
 
 The following image was the output of the above command: <br>
 
-![view-subnets](url?raw=true)
+![view-subnets](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/vpc-subnets/view-subnet.png?raw=true)
+
+## Delete Subnet
+The following command was used to delete an existing subnet:
+```
+aws ec2 delete-subnet --subnet-id subnet-036034915d0e5ad13 
+```
+
+The following image was the output of the above command: <br>
+
+![delete-subnet](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/vpc-subnets/delete-subnet.png?raw=true)

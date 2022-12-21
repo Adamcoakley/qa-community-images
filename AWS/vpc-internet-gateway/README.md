@@ -19,7 +19,7 @@ aws ec2 create-internet-gateway
 
 The following image was the output of the above command: <br>
 
-![create-internet-gateway](url?raw=true)
+![create-internet-gateway](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/vpc-internet-gateway/create-igw.png?raw=true)
 
 ## Attach Internet Gateway to VPC
 The following command was used to attach the internet gateway to the VPC:
@@ -29,7 +29,7 @@ aws ec2 attach-internet-gateway --internet-gateway-id igw-0b10ac0b92bda7a77 --vp
 
 The following image was the output of the above command: <br>
 
-![attach-internet-gateway-vpc](url?raw=true)
+![attach-internet-gateway-vpc](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/vpc-internet-gateway/attach-igw-vpc.png?raw=true)
 
 ## View Internet Gateway
 The following command was used to view the internet gateway:
@@ -39,7 +39,7 @@ aws ec2 describe-internet-gateways
 
 The following image was the output of the above command: <br>
 
-![view-internet-gateway](url?raw=true)
+![view-internet-gateway](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/vpc-internet-gateway/view-igw.png?raw=true)
 
 ## Detach Internet Gateway
 The following command was used to view the internet gateway:
@@ -49,7 +49,7 @@ aws ec2 detach-internet-gateway --internet-gateway-id igw-0b10ac0b92bda7a77 --vp
 
 The following image was the output of the above command: <br>
 
-![detach-internet-gateway](url?raw=true)
+![detach-internet-gateway](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/vpc-internet-gateway/detach-igw.png?raw=true)
 
 ## Delete Internet Gateway
 The following command was used to view the internet gateway:
@@ -59,5 +59,5 @@ aws ec2 delete-internet-gateway --internet-gateway-id igw-0b10ac0b92bda7a77
 
 The following image was the output of the above command: <br>
 
-![view-internet-gateway](url?raw=true)
+![view-internet-gateway](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/vpc-internet-gateway/delete-igw.png?raw=true)
 

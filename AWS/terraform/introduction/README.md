@@ -51,7 +51,7 @@ The following image was the output of the above command: <br>
 
 ![terraform-apply](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/terraform/introduction/terraform-apply.png?raw=true)
 
-## terraform apply
+## AWS Console
 Once Terraform gives you a prompt about the successful operation, check that the resource has been created in the AWS console under Compute > EC2. <br>
 
 ![instance-on-console](https://github.com/Adamcoakley/qa-community-images/blob/main/AWS/terraform/introduction/instance-on-console.png?raw=true)
